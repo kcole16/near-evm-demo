@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "bs58": "^4.0.1",
-    "near-web3-provider": "https://github.com/nearprotocol/near-web3-provider",
-    "nearlib": "^0.21.0",
-    "openzeppelin-solidity": "^2.5.0"
+    "near-web3-provider": "file:../near-web3-provider",
+    "openzeppelin-solidity": "^2.5.0",
+    "web3": "^1.2.6"
   }
 }

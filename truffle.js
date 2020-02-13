@@ -1,5 +1,4 @@
-const nearlib = require('nearlib')
-const NearProvider = require('near-web3-provider');
+const { NearProvider, nearlib } = require('near-web3-provider');
 const web3 = require('web3');
 
 const TEST_NEAR_ACCOUNT = 'test.near';
