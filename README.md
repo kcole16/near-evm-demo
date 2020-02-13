@@ -9,9 +9,15 @@ truffle migrate
 npm run dev
 ```
 
-## To run on NEAR:
+## To run on NEAR TestNet:
 
 ```
-npm install
+npm install -g truffle
+npm install -g near-shell
+
+# Create account or authorize existing account with NEAR wallet.
+near login
+
+# Modify truffle.js to use your account in ACCOUNT_ID and run:
 truffle migrate --network near
 ```
