@@ -32,7 +32,7 @@ module.exports = {
     near_test: {
         network_id: '98',
         provider: function() {
-            return new NearProvider('https://localhost:3030', testKeyStore, TEST_NEAR_ACCOUNT, testNetworkId);
+            return new NearProvider('http://localhost:3030', testKeyStore, TEST_NEAR_ACCOUNT, testNetworkId);
         },
         from: testAccount,
         skipDryRun: true
