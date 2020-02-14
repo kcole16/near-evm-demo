@@ -1,3 +1,13 @@
+import { NearProvider, nearlib } from 'near-web3-provider';
+import { web3 } from 'web3';
+import { TruffleContract } from 'truffle-contract';
+
+// Configuration for TestNet.
+ACCOUNT_ID = 'ethdenverdemo'
+const fileKeyStore = new nearlib.keyStores.UnencryptedFileSystemKeyStore('neardev');
+const networkId = 'default';
+const defaultAccount = web3.utils.keccak256(ACCOUNT_ID).slice(26, 66);
+
 App = {
   web3Provider: null,
   contracts: {},

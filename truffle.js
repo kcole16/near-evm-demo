@@ -12,7 +12,7 @@ const testKeyStore = new nearlib.keyStores.InMemoryKeyStore();
 testKeyStore.setKey(testNetworkId, TEST_NEAR_ACCOUNT, keyPair);
 
 // Configuration for TestNet.
-ACCOUNT_ID = 'illia.china'
+ACCOUNT_ID = 'ethdenverdemo'
 const fileKeyStore = new nearlib.keyStores.UnencryptedFileSystemKeyStore('neardev');
 const networkId = 'default';
 const defaultAccount = web3.utils.keccak256(ACCOUNT_ID).slice(26, 66);

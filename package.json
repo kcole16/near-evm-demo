@@ -7,18 +7,22 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "lite-server",
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
     "bs58": "^4.0.1",
     "near-web3-provider": "git+https://github.com/nearprotocol/near-web3-provider.git",
     "openzeppelin-solidity": "^2.5.0",
+    "regenerator-runtime": "^0.13.3",
+    "truffle-contract": "^4.0.31",
     "web3": "^1.2.6"
   }
 }
