@@ -40,7 +40,6 @@ const config = {
 async function initNear() {
   // Connect to NEAR RPC
   const near = await nearlib.connect(config);
-  near.config = config;
   const walletAccount = new nearlib.WalletAccount(near);
 
   // Login via NEAR web wallet
