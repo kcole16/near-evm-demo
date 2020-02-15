@@ -23,7 +23,7 @@ truffle migrate --network near
 ```
 
 ## To use NEAR on the Frontend
-```
+```javascript
 import Web3 from "web3";
 import { NearProvider } from 'near-web3-provider';
 import * as nearlib from 'nearlib';
